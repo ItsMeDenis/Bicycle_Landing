@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+@@include('html/head.html', {
+"title": "главная"
+})
+
+<body class="wrapper">
+
+
+	<main class="page">
+		@@include('html/header.html',{})
+		<div class="main-screen">
+			<div class="main-screen__bg ibg">
+				<img src="@img/bgFirst.webp" alt="">
+			</div>
+		</div>
+		<div class="content">
+			<section id="about" class="generation">
+				<div class="container">
+					<div class="generation__block content-block">
+						<div class="content-block__icon">
+							<img src="@img/icons/genIcon.png" alt="">
+
+						</div>
+						<h1 class="content-block__title">
+							A NEW GENERATION OF VINTAGE BIKE
+						</h1>
+						<div class="content-block__text">
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+								the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+								of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+								but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="brands">
+				<div class="brands__row">
+					<div class="brands__column brands__column-b">
+						<a href="#" class="brands__item item">
+							<span class="item__logo"><img src="@img/Logo/bicycleLogo.png" alt=""></span>
+							<span class="item__image ibg"><img src="@img/another/First.webp" alt=""></span>
+						</a>
+					</div>
+					<div class="brands__column">
+						<div class="brands__content content-block">
+
+							<div class="content-block__icon">
+								<img src="@img/icons/vintage.png" alt="">
+
+							</div>
+							<h2 class="content-block__title">
+								vintage Oliva
+							</h2>
+							<div class="content-block__text content-block__text-j">
+								<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+									been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+									galley of type and scrambled it to make a type specimen book. It has survived.</p>
+							</div>
+							<div class="brands__image ibg">
+								<img src="@img/another/two.webp" alt="">
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		@@include('html/footer.html',{})
+	</main>
+
+
+
+	<script src="js/app.min.js"></script>
+</body>
+
+</html>
